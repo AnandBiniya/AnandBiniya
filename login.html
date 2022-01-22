@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 50%;
+            height: 300px;
+            background-color: pink;
+            margin: auto;
+            background-image: url(https://www.rodanandfields.com/en-us/medias/Homepage-Hero-Banner-FullWidth-Evergreen-Offers-Desktop-Tablet-1-.jpg?context=bWFzdGVyfHJvb3R8MjczMzIzfGltYWdlL2pwZWd8aDc4L2g4NS8xNDI5NjMzNjk5MDIzOC5qcGd8OTRjNGY2ODI3M2RkNzdjYzk0MWMzMDg5ODU0YmM5NWVmMzUyMWNlNGRkMTlkZjc5ZWUyZjMyMzdhM2YxNGFlYw);
+      position: absolute;
+      padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Log in Page</h1>
+
+    <form>
+        <input id="user" type="text" placeholder="enter username"/>
+        <br>
+        <input   id="pass" type="text" placeholder="Enter password"/>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit",signin,false);
+
+
+    var  registereduser=JSON.parse(localStorage.getItem("userdatabase"))
+    console.log(registereduser)
+    function signin(event){
+        event.preventDefault();
+      
+        var pass=document.querySelector("#pass").value
+        var user=document.querySelector("#user").value
+
+        for(var i=0;i<registereduser.length; i++){
+            console.log(registereduser[i].userName,registereduser[i]. password)
+
+            if(registereduser[i].password==pass&&registereduser[i].userName==user){
+                window.location.href="Home.html"
+
+            }
+           
+        }
+    }
+</script>

@@ -4,7 +4,7 @@ Hi 👋 My name is Anand Biniya
 Full Stack Web Developer
 ------------------------
 
-* 🌍  I'm based in Bengalore
+* 🌍  I'm based in Bangalore
 * ✉️  You can contact me at [anand.biniya@gmail.com](mailto:anand.biniya@gmail.com)
 * 🧠  I'm learning MERN Technology
 * 🤝  I'm open to collaborating on React Js projects

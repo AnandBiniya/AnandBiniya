@@ -10,7 +10,7 @@ Full Stack Web Developer
 * 🤝  I'm open to collaborating on React Js projects
 * ⚡  Apart from creating websites I like to write Stories, I Love Gardening.
 * 🚀  Have a look on my [Portfolio](https://portfolio-anand-biniya-4hifxs4eo-anandbiniya-gmailcom.vercel.app/)
-* ![image](https://github.com/Anandbiniya/AnandBiniya/assets/96160297/6270c329-9184-4278-b8d9-9681f36eca50)
+*
  Currently, I am working on [DreamSync](https://github.com/Anandbiniya/DreamSyncHub).
 
 
